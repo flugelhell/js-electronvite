@@ -1,0 +1,17 @@
+I. Definition
+    1. Electron JS adalah framework untuk membuat aplikasi desktop dengan javascript
+    2. Vite JS adalah build tool untuk memudahkan dalam membuat project javasript yang menyediakan template javascript vanilla, react, vue dll
+    3. Electron Vite adalah build tool yang dikhusus kan vite untuk framework Electron js
+
+II. Installation
+    1. install pnpm package manager untuk efisiensi ruang penyimpanan : npm install -g pnpm
+    2. create project dengan tempalte react : pnpm create @quick-start/electron application-name --template react
+    3. install modules : pnpm install
+
+III. Running dev
+    1. running command for dev : pnpm run dev
+
+IV. Build
+    1. build for windows : pnpm run build:win 
+    2. output in ./dist/win-unpacked
+
